@@ -4,19 +4,19 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Index</title>
+    <title>Modificar</title>
 </head>
 <body>
-    <form action="/Video/Create" method="post">
+    <form action="/Video/Modificar" method="post">
     <fieldset>
     <legend>Informacion</legend>
 
-    <label for="idVideo">idvideo:</label>
-        <input type="text" name="idVideo" />
+    <label for="idvideo">idvideo:</label>
+        <input type="text" name="idvideo" />
         <br />
 
-        <label for="titulo">titulo:</label>
-        <input type="text" name="titulo" />
+        <label for="nombre">titulo:</label>
+        <input type="text" name="nombre" />
         <br />
 
         <label for="repro">repro:</label>
@@ -26,9 +26,8 @@
         <label for="url">url:</label>
         <input type="text" name="url" />
         <br />
-        <input type="submit" name="registrarVideo" value="Registar video " />
+        <input type="submit" name="modificarVideo" value="Modificar video " />
       </fieldset>
       </form>
-
 </body>
 </html>

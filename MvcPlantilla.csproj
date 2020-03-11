@@ -78,8 +78,15 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Views\Home\Index.aspx" />
+    <Content Include="Views\Video\Create.aspx" />
+    <Content Include="Views\Video\Eliminar.aspx" />
     <Content Include="Views\Video\Index.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Views\Video\Mensaje.aspx" />
+    <Content Include="Views\Video\Modificar.aspx" />
+    <Content Include="Views\Video\Ver.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
